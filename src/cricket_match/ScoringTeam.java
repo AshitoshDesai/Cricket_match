@@ -11,14 +11,16 @@ public class ScoringTeam {
 		runPerball runs5=new runPerball(4,4,0,0,6,6);
 		
 		
-		overs[] over =new overs[5];
-		over[0]=new overs(1,runs1);
-		over[1]=new overs(2,runs3);
-		over[2]=new overs(3,runs5);
-		over[3]=new overs(4,runs2);
-		over[4]=new overs(5,runs1);
+		overs[] overs =new overs[5];
+		overs[0]=new overs(1,runs1);
+		overs[1]=new overs(2,runs3);
+		overs[2]=new overs(3,runs5);
+		overs[3]=new overs(4,runs2);
+		overs[4]=new overs(5,runs1);
 		
-		scoreBboard b=new scoreBboard(overs);
+		scoreBboard b=new scoreBboard("India",overs);
+		b.totalscore();
+		//System.out.println(b..getRuns_perOver().getBall1());
 	}
 
 }

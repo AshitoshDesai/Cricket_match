@@ -19,4 +19,28 @@ public class runPerball {
 		this.ball6=n;
 	}
 
+	public int getBall1() {
+		return ball1;
+	}
+
+	public int getBall2() {
+		return ball2;
+	}
+
+	public int getBall3() {
+		return ball3;
+	}
+
+	public int getBall4() {
+		return ball4;
+	}
+
+	public int getBall5() {
+		return ball5;
+	}
+
+	public int getBall6() {
+		return ball6;
+	}
+
 }
