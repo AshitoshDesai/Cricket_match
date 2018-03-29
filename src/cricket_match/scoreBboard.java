@@ -24,6 +24,7 @@ public class scoreBboard {
 		//score=this.score[i].getRuns_perOver().getBall1();
 			score=overScore(i);
 			final_total=final_total+score;
+			System.out.println("the finalTotalscore of match");
 			System.out.println(final_total);
 		
 	}
