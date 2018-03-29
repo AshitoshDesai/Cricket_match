@@ -32,6 +32,42 @@ public class scoreBboard {
 	
 
 
+	public String getTeam() {
+		return team;
+	}
+
+
+
+	public void setTeam(String team) {
+		this.team = team;
+	}
+
+
+
+	public overs[] getScore() {
+		return score;
+	}
+
+
+
+	public void setScore(overs[] score) {
+		this.score = score;
+	}
+
+
+
+	public int getFinal_total() {
+		return final_total;
+	}
+
+
+
+	public void setFinal_total(int final_total) {
+		this.final_total = final_total;
+	}
+
+
+
 	private int overScore(int i) {
 		// TODO Auto-generated method stub
 		int score=0;
