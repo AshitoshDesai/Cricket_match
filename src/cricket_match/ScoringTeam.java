@@ -17,9 +17,9 @@ public class ScoringTeam {
 		overs[2]=new overs(3,runs5);
 		overs[3]=new overs(4,runs2);
 		overs[4]=new overs(5,runs1);
-		
-		scoreBboard b=new scoreBboard("India",overs);
-		b.totalscore();
+		overs[0].overScore();
+		//scoreBboard b=new scoreBboard("India",overs);
+		//b.totalscore();
 		//System.out.println(b..getRuns_perOver().getBall1());
 	}
 
